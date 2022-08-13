@@ -5,6 +5,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python: Current File senza Arg",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
       "name": "PowerShell Launch Current File",
       "type": "PowerShell",
       "request": "launch",
@@ -12,13 +20,13 @@
       "cwd": "${file}"
     },
     {
-      "name": "Python: Current File",
+      "name": "Python: Current File with  Args",
       "type": "python",
       "request": "launch",
       "program": "${file}",
       "console": "integratedTerminal",
       "justMyCode": true,
-      "args": ["--file"," valore file", "--hash", "  valore  hash"]  // "--verbosity","primo", "--clarity", "secondo",
+      "args": ["--file", " valore file", "--hash", "  valore  hash"] // "--verbosity","primo", "--clarity", "secondo",
     },
 
     {

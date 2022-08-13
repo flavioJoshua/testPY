@@ -2,7 +2,33 @@
 	"folders": [
 		{
 			"path": ".."
+		},
+		{
+			"path": "../Dir1"
+		},
+		{
+			"path": "../dir2"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"powershell.cwd": "/home/flavio/code/testPY"
+		
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			
+			
+
+			{
+				"name": "Python: work  File ",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal",
+				"justMyCode": true
+			  }
+
+		]
+	}
 }
