@@ -1,9 +1,17 @@
-#!/usr/bin/env python3
+''' #!/usr/bin/env python3
+ '''
 from os import environ
 from time import sleep
 import sys
 from subprocess import check_call, check_output, CalledProcessError,TimeoutExpired, Popen, PIPE
+import argparse 
 
+_argument=argparse.ArgumentParser(description="il primo test descrizione ")
+_argument.add_argument('--file', dest='file', type=str, help='Query File at filepath (e.g. /foo/bar/blah.exe)')
+_argument.add_argument('--hash', dest='hash', type=str, help='Query Hash (MD5)')
+args = _argument.parse_args()
+
+exit()
 ''' spiegazione  '''
 #///descrizione  func 
 def write_to_journal(string):

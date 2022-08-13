@@ -1,0 +1,39 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PowerShell Launch Current File",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${file}",
+      "cwd": "${file}"
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": ["--file"," valore file", "--hash", "  valore  hash"]  // "--verbosity","primo", "--clarity", "secondo",
+    },
+
+    {
+      "type": "bashdb",
+      "request": "launch",
+      "name": "Bash-Debug (type in script name)",
+      "cwd": "${workspaceFolder}",
+      "program": "${command:AskForScriptName}",
+      "args": []
+    },
+    {
+      "type": "bashdb",
+      "request": "launch",
+      "name": "Bash-Debug (simplest configuration)",
+      "program": "${file}"
+    }
+  ]
+}
