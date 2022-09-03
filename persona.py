@@ -1,9 +1,9 @@
 
 """ documentazione  Modulo  generale  """
 class clspersona ():
-    """ Variabile statica"""
+    """ Documentazione  Cls Persona """
     specializzazione_loc_static="ND"
-    """ documentazione  ctor """
+    """ documentazione  variabile specializazzione statica """
     def __init__(self,nome,specializzazione="generico"):
         self.name = nome
         self.specializzazione_interna=specializzazione
@@ -24,6 +24,7 @@ class clspersona ():
     """ set  variabile  statica """
     @staticmethod
     def Set_static_specializzazione(varspec):
+        """ documentazione   metodo Statico"""
         clspersona.specializzazione_loc_static=varspec
     @staticmethod    
     def Get_static_specializzazione():
@@ -32,7 +33,7 @@ class clspersona ():
 
 """ documentazione  develop """
 class clsDevelop(clspersona):
-    ''' documentazione  Develop Ctor. '''
+    ''' documentazione  Classe  Develop '''
     def __init__(self, nome):
         clspersona.__init__(self, nome,specializzazione="Develop")
     # def Get_specialization(self)
