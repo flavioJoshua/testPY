@@ -24,6 +24,8 @@ print("il mio messaggio")
 temp=sys.stdout
 
 
+
+
 _test1=DeSerializzazione()
 print(_test1)
 try:

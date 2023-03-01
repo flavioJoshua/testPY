@@ -8,6 +8,14 @@
 		},
 		{
 			"path": "../dir2"
+		},
+		{
+			"name": "test-platformio",
+			"path": "../../test-platformio"
+		},
+		{
+			"name": "221010-080148-stm32cube-hal-blink",
+			"path": "../../../Documents/PlatformIO/Projects/221010-080148-stm32cube-hal-blink"
 		}
 	],
 	"settings": {

@@ -5,11 +5,14 @@ from time import sleep
 import sys
 from subprocess import check_call, check_output, CalledProcessError,TimeoutExpired, Popen, PIPE
 import argparse 
+import Dir1.test2 as tes 
 
 _argument=argparse.ArgumentParser(description="il primo test descrizione ")
 _argument.add_argument('--file', dest='file', type=str, help='Query File at filepath (e.g. /foo/bar/blah.exe)')
 _argument.add_argument('--hash', dest='hash', type=str, help='Query Hash (MD5)')
 args = _argument.parse_args()
+tes.testfunctest2()
+
 
 exit()
 ''' spiegazione  '''

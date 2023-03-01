@@ -1,0 +1,27 @@
+# Italian translations for PACKAGE package.
+# Copyright (C) 2023 ORGANIZATION
+# flavio <flavio@debnitro5.homenet.telecomitalia.it>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-01 21:29+CET\n"
+"PO-Revision-Date: 2023-03-01 21:47+0100\n"
+"Last-Translator: flavio <flavio@debnitro5.homenet.telecomitalia.it>\n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+#: src/main.py:7
+msgid "Hello world"
+msgstr "ciaooo "
+
+#: src/main.py:8
+msgid "This is a translatable string"
+msgstr "la  traduzione "
+
